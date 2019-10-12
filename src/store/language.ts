@@ -20,6 +20,10 @@ export interface LanguageState {
 const initialState: LanguageState = {
   language: "en"
 };
+const user_lang =
+  (window.navigator.languages && window.navigator.languages[0]) ||
+  window.navigator.language;
+console.log("user_lang", user_lang);
 
 // Create a reducer
 // Under the hood it uses `immer` and state mutations are allowed
