@@ -7,9 +7,11 @@ import * as serviceWorker from './serviceWorker';
 import { IntlProvider } from 'react-intl'
 import { DefaultTypelessProvider } from 'typeless';
 
+import 'bulma/css/bulma.css'
+
 ReactDOM.render(
     <DefaultTypelessProvider>
-        <IntlProvider locale='' messages={{}}>
+        <IntlProvider locale='en' messages={{}}>
             <App />
         </IntlProvider>
     </DefaultTypelessProvider>,

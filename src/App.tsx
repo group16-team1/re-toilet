@@ -39,7 +39,7 @@ const App: React.FC = () => {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <div>
-          <button onClick={ff}>
+          <button class="button" onClick={ff}>
             {language === 'en' ? 'change Ja' : '英語にする'}
           </button>
           <div>language: {language}</div>
