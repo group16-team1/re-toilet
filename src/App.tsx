@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,7 +7,7 @@ import { FormattedMessage } from 'react-intl';
 import { useActions } from 'typeless';
 import { useModule, LanguageActions, getLanguageState } from './store/language'
 
-import locales from './locales/index'
+import { locales, locale_list } from './locales/index'
 
 const App: React.FC = () => {
   // load epic and reducer
@@ -32,12 +32,6 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <div>
-          <button className="button" onClick={ff}>
-            {language === 'en' ? 'change Ja' : '英語にする'}
-          </button>
-          <div>language: {language}</div>
-        </div>
         <p>
           <FormattedMessage
             id="welcome"
@@ -62,6 +56,23 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <div className="dropdown is-hoverable is-right is-up" style={{ position: 'fixed', right: '50px', bottom: '50px' }}>
+        <div className="dropdown-trigger">
+          <button className="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+            <span>{language}</span>
+            <span className="icon is-small">
+              <i className="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+        <div className="dropdown-menu" id="dropdown-menu4" role="menu">
+          <div className="dropdown-content">
+            {locale_list.map((locale) => {
+              return <a onClick={ff} key={locale} className={locale === language ? 'dropdown-item is-active' : 'dropdown-item'}>{locale}</a>;
+            })}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
