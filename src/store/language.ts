@@ -1,5 +1,5 @@
 import {createModule} from "typeless";
-import * as Rx from "typeless/rx";
+
 /* == Module Interface == */
 
 export const [useModule, LanguageActions, getLanguageState] = createModule(

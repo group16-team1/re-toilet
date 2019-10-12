@@ -4,7 +4,7 @@ import './App.css';
 
 import { FormattedMessage } from 'react-intl';
 
-import { createModule, useActions, DefaultTypelessProvider } from 'typeless';
+import { useActions } from 'typeless';
 import { useModule, LanguageActions, getLanguageState } from './store/language'
 
 import locales from './locales/index'
@@ -22,7 +22,7 @@ const App: React.FC = () => {
   // wrap actions with `dispatch`
   const { changeLanguage } = useActions(LanguageActions);
   const ff = () => {
-    if (language == 'ja') {
+    if (language === 'ja') {
       changeLanguage('en')
     } else {
       changeLanguage('ja')

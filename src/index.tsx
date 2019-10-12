@@ -4,9 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import { useModule, LanguageActions, getLanguageState } from './store/language'
-import getLanguage from './locales/index'
-
 import { IntlProvider } from 'react-intl'
 import { DefaultTypelessProvider } from 'typeless';
 
