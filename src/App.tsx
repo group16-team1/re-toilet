@@ -13,12 +13,6 @@ const App: React.FC = () => {
   // load epic and reducer
   useModule();
 
-  const state = {
-    name: 'Eric',
-    unreadCount: 1000,
-  }
-  const { name, unreadCount } = state;
-
   // wrap actions with `dispatch`
   const { changeLanguage } = useActions(LanguageActions);
   const ff = () => {
@@ -48,7 +42,7 @@ const App: React.FC = () => {
           <FormattedMessage
             id="welcome"
             defaultMessage={locales[language].hello}
-            values={{ name: <b>{name}</b>, unreadCount }}
+            values={{ name: <b>かす</b>, unreadCount: 134 }}
           />
         </p>
         <p>
