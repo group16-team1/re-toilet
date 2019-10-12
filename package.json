@@ -12,6 +12,7 @@
     "react-dom": "^16.10.2",
     "react-intl": "^3.3.2",
     "react-scripts": "3.2.0",
+    "typeless": "^1.2.1",
     "typescript": "3.6.4"
   },
   "scripts": {

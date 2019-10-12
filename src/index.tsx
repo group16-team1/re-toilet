@@ -4,13 +4,18 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { useModule, LanguageActions, getLanguageState } from './store/language'
+import getLanguage from './locales/index'
 
-import { IntlProvider, FormattedMessage } from 'react-intl'
+import { IntlProvider } from 'react-intl'
+import { DefaultTypelessProvider } from 'typeless';
 
 ReactDOM.render(
-    <IntlProvider locale={'ja'}>
-        <App />
-    </IntlProvider>,
+    <DefaultTypelessProvider>
+        <IntlProvider locale='' messages={{}}>
+            <App />
+        </IntlProvider>
+    </DefaultTypelessProvider>,
     document.getElementById('root')
 );
 
