@@ -10,6 +10,8 @@ import { useModule, LanguageActions, getLanguageState } from './store/language'
 import { locales, locale_list } from './locales/index'
 
 import LocaleBtn from './components/LocaleBtn'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App: React.FC = () => {
   // load epic and reducer
@@ -20,6 +22,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -49,6 +52,7 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <Footer />
       <LocaleBtn />
     </div>
   );
