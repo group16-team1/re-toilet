@@ -7,3 +7,8 @@ export type Language = {
   hello: string;
   hello_name: string;
 };
+
+export type Locale = {
+  locale: string;
+  language: string;
+};
