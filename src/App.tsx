@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import { FormattedMessage } from 'react-intl';
@@ -12,6 +11,7 @@ import { locales, locale_list } from './locales/index'
 import LocaleBtn from './components/LocaleBtn'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import HeroList from './components/HeroList'
 
 const App: React.FC = () => {
   // load epic and reducer
@@ -24,7 +24,7 @@ const App: React.FC = () => {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <HeroList />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
