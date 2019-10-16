@@ -27,7 +27,7 @@ const LocaleBtn: React.FC = () => {
     }
 
     return (
-        <div className="dropdown is-hoverable is-right is-up" style={{ position: 'fixed', right: '50px', bottom: '50px' }}>
+        <div className="dropdown is-hoverable is-right is-up" style={{ position: 'fixed', right: '30px', bottom: '30px' }}>
             <div className="dropdown-trigger">
                 <button className="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu4">
                     <span>{locales[language].locale}</span>
