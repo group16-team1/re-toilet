@@ -9,6 +9,7 @@ export type Languages = {
 };
 
 export type Language = {
+  locale: string;
   hello: string;
   hello_name: string;
   hero_list: {

@@ -1,6 +1,7 @@
 import {Language} from "./type";
 
 const ja_JP: Language = {
+  locale: '日本語',
   hello: "{name}は残り{unreadCount}!",
   hello_name: `こんにちは，{ my_name } !`,
   hero_list: {
