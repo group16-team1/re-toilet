@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 
 import { FormattedMessage } from 'react-intl';
 
-import { useActions } from 'typeless';
-import { useModule, LanguageActions, getLanguageState } from './store/language'
+import { useModule, getLanguageState } from './store/language'
 
-import { locales, locale_list } from './locales/index'
+import { locales } from './locales/index'
 
 import LocaleBtn from './components/LocaleBtn'
 import Navbar from './components/Navbar'

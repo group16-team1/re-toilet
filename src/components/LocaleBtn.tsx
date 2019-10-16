@@ -38,7 +38,7 @@ const LocaleBtn: React.FC = () => {
             <div className="dropdown-menu" id="dropdown-menu4" role="menu">
                 <div className="dropdown-content">
                     {locale_list.map((item) => {
-                        return <a onClick={ff} key={item.locale} className={item.locale === language ? 'dropdown-item is-active' : 'dropdown-item'}>{item.language}</a>;
+                        return <a href="#none" onClick={ff} key={item.locale} className={item.locale === language ? 'dropdown-item is-active' : 'dropdown-item'}>{item.language}</a>;
                     })}
                 </div>
             </div>
