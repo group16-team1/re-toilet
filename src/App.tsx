@@ -10,7 +10,7 @@ import Home from './pages/Home'
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
         <Switch>
