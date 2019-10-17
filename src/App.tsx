@@ -14,8 +14,8 @@ const App: React.FC = () => {
       <div className="App">
         <Navbar />
         <Switch>
-          {/* <Route exact path={["/home", "/"]} component={Home} /> */}
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+          <Route exact path={["/home", "/"]} component={Home} />
+          {/* <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} /> */}
         </Switch>
         <Footer />
         <LocaleBtn />
