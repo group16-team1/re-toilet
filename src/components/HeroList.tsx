@@ -5,9 +5,9 @@ import Hero from './Hero'
 const HeroList: React.FC = () => {
   return (
     <div className="columns is-tablet">
-      <Hero title="manner" />
-      <Hero title="usage" />
-      <Hero title="ecology" />
+      <Hero key="manner" title={'manner'} />
+      <Hero key="usage" title={'usage'} />
+      <Hero key="ecology" title={'ecology'} />
     </div>
   )
 }
