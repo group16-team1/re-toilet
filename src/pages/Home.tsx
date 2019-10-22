@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           id='hello_name'
           description='say hello to wang.'
           defaultMessage={hello[language]}
-          values={{ my_name: 'かす' }}
+          values={{ my_name: 'INIAD' }}
         />
       </div>
       <IconList />
