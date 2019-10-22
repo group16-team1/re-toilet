@@ -18,7 +18,7 @@ const Hero: React.FC<props> = props => {
 
   return (
     <div className="column">
-      <Link to={'/' + props.title}>{hero_list[props.title].title[language]}</Link>
+      <a href={'/' + props.title}>{hero_list[props.title].title[language]}</a>
       <img src={logo} className="App-logo" alt="logo" />
     </div>
   )

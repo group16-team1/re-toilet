@@ -1,5 +1,5 @@
 import {createModule} from "typeless";
-import { LocaleLang } from '../locales/type'
+import {LocaleLang} from "../locales/type";
 
 /* == Module Interface == */
 
@@ -31,12 +31,5 @@ console.log("user_lang", user_lang);
 useModule
   .reducer(initialState)
   .on(LanguageActions.changeLanguage, (state, {language}) => {
-    switch (language) {
-      case "ja":
-        state.language = "ja";
-        break;
-      default:
-        state.language = "en";
-        break;
-    }
+    state.language = language;
   });
