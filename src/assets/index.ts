@@ -7,7 +7,7 @@ export const open_seat = require("./open-seat.png");
 export const stop = require("./stop.png");
 export const wash = require("./wash.png");
 
-const assets = [
+export const assets = [
   dry,
   flush_toilet_big,
   flush_toilet_small,
@@ -18,4 +18,6 @@ const assets = [
   wash
 ];
 
-export default assets;
+export const manner = require("./images/re_manner.jpeg");
+export const clean = require("./images/re_clean.jpeg");
+export const eco = require("./images/re_eco.jpeg");

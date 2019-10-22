@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Icon from './Icon'
-import assets from '../assets/index'
+import { assets } from '../assets/index'
 
 const IconList: React.FC = () => {
   return (
