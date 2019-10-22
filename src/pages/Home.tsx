@@ -3,10 +3,11 @@ import React from 'react'
 import { useModule, getLanguageState } from '../store/language'
 
 import { FormattedMessage } from 'react-intl';
-import { locales } from '../locales/index'
 
 import HeroList from '../components/HeroList'
 import IconList from '../components/IconList'
+
+import { hello } from '../locales/hello'
 
 const Home: React.FC = () => {
   // load epic and reducer
@@ -24,16 +25,9 @@ const Home: React.FC = () => {
       <IconList />
       <p>
         <FormattedMessage
-          id="welcome"
-          defaultMessage={locales[language].hello}
-          values={{ name: <b>かす</b>, unreadCount: 134 }}
-        />
-      </p>
-      <p>
-        <FormattedMessage
           id='hello_name'
           description='say hello to wang.'
-          defaultMessage={locales[language].hello_name}
+          defaultMessage={hello[language]}
           values={{ my_name: 'かす' }}
         />
       </p>
