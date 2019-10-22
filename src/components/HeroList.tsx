@@ -7,7 +7,7 @@ const HeroList: React.FC = () => {
   return (
     <div className="columns is-tablet">
       <Hero key="manner" title={'manner'} image={manner} />
-      <Hero key="usage" title={'usage'} image={clean} />
+      <Hero key="clean" title={'clean'} image={clean} />
       <Hero key="ecology" title={'ecology'} image={eco} />
     </div>
   )

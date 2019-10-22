@@ -4,7 +4,7 @@ import { hero_list } from '../locales/hero_list'
 import { useModule, getLanguageState } from '../store/language'
 
 type props = {
-  title: 'manner' | 'usage' | 'ecology';
+  title: 'manner' | 'clean' | 'ecology';
   image: string;
 }
 

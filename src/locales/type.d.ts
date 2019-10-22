@@ -3,7 +3,7 @@ export type Locale = {
   language: string;
 };
 
-export type LocaleLang = "en" | "ja"
+export type LocaleLang = "en" | "ja";
 
 export type LocaleData = {
   en: string;
@@ -21,11 +21,11 @@ export type Language = {
   hello_name: string;
   hero_list: {
     manner: Hero;
-    usage: Hero;
+    clean: Hero;
     ecology: Hero;
-  }
+  };
 };
 
 type Hero = {
   title: string;
-}
+};

@@ -1,32 +1,32 @@
-import {LocaleData} from './type'
+import {LocaleData} from "./type";
 
 type Hero = {
-  title: LocaleData 
-}
+  title: LocaleData;
+};
 
 type HeroList = {
   manner: Hero;
-  usage: Hero;
-  ecology: Hero; 
-}
+  clean: Hero;
+  ecology: Hero;
+};
 
 export const hero_list: HeroList = {
-   manner: {
-     title: {
+  manner: {
+    title: {
       en: "Manner",
       ja: "マナー"
     }
-   },
-   usage:{
-     title: {
-      en: "Usage",
-      ja: "使いかた"
+  },
+  clean: {
+    title: {
+      en: "Clean",
+      ja: "清潔に"
     }
-   },
-   ecology:{
-     title: {
+  },
+  ecology: {
+    title: {
       en: "Echology",
       ja: "エコ"
     }
-   }
-}
+  }
+};
