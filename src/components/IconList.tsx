@@ -5,7 +5,7 @@ import { assets } from '../assets/index'
 
 const IconList: React.FC = () => {
   return (
-    <div className="columns is-mobile is-multiline">
+    <div className="columns is-tablet is-multiline">
       {assets.map(image => {
         return <Icon logo={image} key={image} />
       })}
