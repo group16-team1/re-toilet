@@ -19,15 +19,15 @@ const Home: React.FC = () => {
   return (
     <header className="App-header">
       <HeroList />
-      <IconList />
-      <p>
+      <div className="subtitle">
         <FormattedMessage
           id='hello_name'
           description='say hello to wang.'
           defaultMessage={hello[language]}
           values={{ my_name: 'かす' }}
         />
-      </p>
+      </div>
+      <IconList />
     </header>
   )
 }
