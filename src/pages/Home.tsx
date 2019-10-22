@@ -19,9 +19,6 @@ const Home: React.FC = () => {
   return (
     <header className="App-header">
       <HeroList />
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-        </p>
       <IconList />
       <p>
         <FormattedMessage
@@ -31,14 +28,6 @@ const Home: React.FC = () => {
           values={{ my_name: 'かす' }}
         />
       </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-        </a>
     </header>
   )
 }
