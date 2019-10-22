@@ -8,5 +8,9 @@ export const locale_list: Locale[] = [
   {
     locale: "ja",
     language: "日本語"
+  },
+  {
+    locale: "cn",
+    language: "中文"
   }
 ];

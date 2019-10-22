@@ -1,6 +1,7 @@
-import {LocaleData} from './type'
+import {LocaleData} from "./type";
 
 export const locale_btn: LocaleData = {
   en: "English",
-  ja: "日本語"
-}
+  ja: "日本語",
+  cn: "中文"
+};

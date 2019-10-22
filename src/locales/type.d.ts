@@ -3,16 +3,18 @@ export type Locale = {
   language: string;
 };
 
-export type LocaleLang = "en" | "ja";
+export type LocaleLang = "en" | "ja" | "cn";
 
 export type LocaleData = {
   en: string;
   ja: string;
+  cn: string;
 };
 
 export type Languages = {
   en: Language;
   ja: Language;
+  cn: Language;
 };
 
 export type Language = {
