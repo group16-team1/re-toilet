@@ -16,9 +16,9 @@ const Hero: React.FC<props> = props => {
   const { language } = getLanguageState.useState();
 
   return (
-    <div className="column hero" style={{ position: "relative" }}>
+    <div className="column hero" style={{ position: "relative", padding: 0 }}>
       <a href={'/' + props.title}>
-        <img src={props.image} className="App-logo" alt="logo" style={{ filter: "brightness(50%)", objectFit: "cover" }} />
+        <img src={props.image} className="App-logo" alt="logo" style={{ filter: "brightness(50%)", objectFit: "cover", width: "100%"}} />
         <p style={{
           color: "white",
           position: "absolute",
