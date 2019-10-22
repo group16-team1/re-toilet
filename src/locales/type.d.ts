@@ -1,6 +1,13 @@
 export type Locale = {
-  locale: string;
+  locale: LocaleLang;
   language: string;
+};
+
+export type LocaleLang = "en" | "ja"
+
+export type LocaleData = {
+  en: string;
+  ja: string;
 };
 
 export type Languages = {

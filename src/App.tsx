@@ -10,17 +10,18 @@ import Home from './pages/Home'
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <div className="App">
-        <Navbar />
-        <Switch>
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <div className="App">
+      <Navbar />
+      {/* <Switch>
           <Route exact path={["/home", "/"]} component={Home} />
-          {/* <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} /> */}
-        </Switch>
-        <Footer />
-        <LocaleBtn />
-      </div>
-    </BrowserRouter>
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+        </Switch> */}
+      <Home />
+      <Footer />
+      <LocaleBtn />
+    </div>
+    // </BrowserRouter>
   );
 }
 

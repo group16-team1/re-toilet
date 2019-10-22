@@ -1,4 +1,5 @@
 import {createModule} from "typeless";
+import { LocaleLang } from '../locales/type'
 
 /* == Module Interface == */
 
@@ -7,12 +8,12 @@ export const [useModule, LanguageActions, getLanguageState] = createModule(
 )
   // Create Actions Creators
   .withActions({
-    changeLanguage: (language: string) => ({payload: {language}})
+    changeLanguage: (language: LocaleLang) => ({payload: {language}})
   })
   .withState<LanguageState>();
 
 export interface LanguageState {
-  language: "en" | "ja";
+  language: LocaleLang;
 }
 
 /* == Module Implementation == */
