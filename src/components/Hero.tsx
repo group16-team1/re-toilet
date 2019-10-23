@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 import { hero_list } from '../locales/hero_list'
-import { useModule, getLanguageState } from '../store/language'
+import { getLanguageState } from '../store/language'
 
 type props = {
   title: 'manner' | 'clean' | 'ecology';
@@ -10,9 +10,6 @@ type props = {
 }
 
 const Hero: React.FC<props> = props => {
-  // load epic and reducer
-  useModule();
-
   // get state from store
   const { language } = getLanguageState.useState();
 

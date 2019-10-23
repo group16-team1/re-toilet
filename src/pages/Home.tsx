@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { useModule, getLanguageState } from '../store/language'
+import { getLanguageState } from '../store/language'
 
 import { FormattedMessage } from 'react-intl';
 
@@ -10,9 +10,6 @@ import IconList from '../components/IconList'
 import { hello } from '../locales/hello'
 
 const Home: React.FC = () => {
-  // load epic and reducer
-  useModule();
-
   // get state from store
   const { language } = getLanguageState.useState();
 

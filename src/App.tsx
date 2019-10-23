@@ -2,6 +2,8 @@ import React from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
+import { useModule } from './store/language'
+
 import LocaleBtn from './components/LocaleBtn'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -11,6 +13,9 @@ import Hero from './pages/Hero'
 import { manner, clean, eco } from './assets/index'
 
 const App: React.FC = () => {
+  // load epic and reducer
+  useModule()
+
   return (
     <HashRouter>
       <div className="App">
