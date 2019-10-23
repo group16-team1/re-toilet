@@ -1,5 +1,5 @@
 import React from 'react';
-// import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import LocaleBtn from './components/LocaleBtn'
@@ -10,18 +10,17 @@ import Home from './pages/Home'
 
 const App: React.FC = () => {
   return (
-    // <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <div className="App">
-      <Navbar />
-      {/* <Switch>
-          <Route exact path={["/home", "/"]} component={Home} />
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
-        </Switch> */}
-      <Home />
-      <Footer />
-      <LocaleBtn />
-    </div>
-    // </BrowserRouter>
+    <HashRouter>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+        <Home />
+        <Footer />
+        <LocaleBtn />
+      </div>
+    </HashRouter>
   );
 }
 
