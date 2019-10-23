@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <a className="navbar-item" href={window.location.origin}>
+        <Link className="navbar-item" to="/">
           <p className="title">re:toire</p>
-        </a>
+        </Link>
       </div>
     </nav>
   )
