@@ -18,7 +18,7 @@ const Hero: React.FC<props> = props => {
   return (
     <div className="column hero" style={{ position: "relative", padding: 0 }}>
       <a href={'/' + props.title}>
-        <img src={props.image} className="App-logo" alt="logo" style={{ filter: "brightness(50%)", objectFit: "cover", width: "100%"}} />
+        <img src={props.image} className="App-logo" alt="logo" style={{ filter: "brightness(50%)", objectFit: "cover", width: "100%" }} />
         <p style={{
           color: "white",
           position: "absolute",
@@ -26,7 +26,8 @@ const Hero: React.FC<props> = props => {
           top: "50%",
           transform: "translate(-50%,-50%)",
           margin: 0,
-          padding: 0
+          padding: 0,
+          fontSize: "calc(30px + 2vmin)"
         }}>{hero_list[props.title].title[language]}</p>
       </a>
     </div>
