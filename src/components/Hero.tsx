@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import { hero_list } from '../locales/hero_list'
 import { useModule, getLanguageState } from '../store/language'
@@ -17,7 +18,7 @@ const Hero: React.FC<props> = props => {
 
   return (
     <div className="column hero" style={{ position: "relative", padding: 0 }}>
-      <a href={'/' + props.title}>
+      <Link to={'/' + props.title}>
         <img src={props.image} className="App-logo" alt="logo" style={{ filter: "brightness(50%)", objectFit: "cover", width: "100%" }} />
         <p style={{
           color: "white",
@@ -29,7 +30,7 @@ const Hero: React.FC<props> = props => {
           padding: 0,
           fontSize: "calc(30px + 2vmin)"
         }}>{hero_list[props.title].title[language]}</p>
-      </a>
+      </Link>
     </div>
   )
 }
