@@ -21,8 +21,8 @@ export const hero_list: HeroList = {
   clean: {
     title: {
       en: "Clean",
-      ja: "清潔に",
-      cn: "乾淨的"
+      ja: "清潔",
+      cn: "乾淨"
     }
   },
   ecology: {
