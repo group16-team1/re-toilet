@@ -24,7 +24,7 @@ const App: React.FC = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/manner" render={() => <Hero key="manner" title={'manner'} image={manner} />} />
           <Route exact path="/clean" render={() => <Hero key="clean" title={'clean'} image={clean} />} />
-          <Route exact path="/ecology" render={() => <Hero key="ecology" title={'ecology'} image={eco} />} />
+          <Route exact path="/eco" render={() => <Hero key="eco" title={'eco'} image={eco} />} />
         </Switch>
         <Footer />
         <LocaleBtn />

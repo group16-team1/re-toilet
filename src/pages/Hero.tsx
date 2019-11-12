@@ -5,7 +5,7 @@ import { hero_list } from '../locales/hero_list'
 import { getLanguageState } from '../store/language'
 
 type props = {
-  title: 'manner' | 'clean' | 'ecology';
+  title: 'manner' | 'clean' | 'eco';
   image: string;
 }
 
