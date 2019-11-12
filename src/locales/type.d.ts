@@ -3,7 +3,7 @@ export type Locale = {
   language: string;
 };
 
-export type LocaleLang = "en" | "ja" | "cn";
+export type LocaleLang = "en" | "ja" | "ct" | "cs";
 
 export type LocaleData = {
   en: string;

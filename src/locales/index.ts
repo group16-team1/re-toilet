@@ -1,4 +1,4 @@
-import {Locale} from "./type";
+import { Locale } from "./type";
 
 export const locale_list: Locale[] = [
   {
@@ -10,7 +10,11 @@ export const locale_list: Locale[] = [
     language: "日本語"
   },
   {
-    locale: "cn",
-    language: "中文"
+    locale: "ct",
+    language: "繁体中文"
+  },
+  {
+    locale: "cs",
+    language: "簡体中文"
   }
 ];
