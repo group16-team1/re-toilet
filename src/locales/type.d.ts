@@ -8,13 +8,15 @@ export type LocaleLang = "en" | "ja" | "ct" | "cs";
 export type LocaleData = {
   en: string;
   ja: string;
-  cn: string;
+  cs: string;
+  ct: string;
 };
 
 export type Languages = {
   en: Language;
   ja: Language;
-  cn: Language;
+  cs: Language;
+  ct: Language;
 };
 
 export type Language = {
@@ -24,7 +26,7 @@ export type Language = {
   hero_list: {
     manner: Hero;
     clean: Hero;
-    ecology: Hero;
+    eco: Hero;
   };
 };
 
