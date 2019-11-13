@@ -6,6 +6,7 @@ import { FormattedMessage } from 'react-intl';
 
 import HeroList from '../components/HeroList'
 import IconList from '../components/IconList'
+import About from '../components/About'
 
 import { hello } from '../locales/hello'
 
@@ -24,6 +25,7 @@ const Home: React.FC = () => {
           values={{ my_name: 'INIAD' }}
         />
       </div>
+      <About />
       <IconList />
     </header>
   )
