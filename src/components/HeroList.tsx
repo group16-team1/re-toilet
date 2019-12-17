@@ -1,14 +1,13 @@
 import React from 'react'
 
-import Hero from './Hero'
-import { manner, clean, eco } from '../assets/index'
+import { Clean, Eco, Manner } from './Heros'
 
 const HeroList: React.FC = () => {
   return (
-    <div className="columns is-tablet">
-      <Hero key="manner" title={'manner'} image={manner} />
-      <Hero key="clean" title={'clean'} image={clean} />
-      <Hero key="eco" title={'eco'} image={eco} />
+    <div className="">
+      <Clean />
+      <Eco />
+      <Manner />
     </div>
   )
 }
