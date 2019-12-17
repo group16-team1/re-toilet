@@ -4,9 +4,7 @@ import './App.css';
 
 import { useModule } from './store/language'
 
-import LocaleBtn from './components/LocaleBtn'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import { Footer, LocaleBtn } from './components'
 
 import Home from './pages/Home'
 import About from './pages/About'
@@ -20,7 +18,6 @@ const App: React.FC = () => {
   return (
     <HashRouter>
       <div className="App">
-        <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
