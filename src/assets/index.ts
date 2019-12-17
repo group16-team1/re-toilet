@@ -21,3 +21,7 @@ export const assets = [
 export const manner = require("./images/re_manner.jpeg");
 export const clean = require("./images/re_clean.jpeg");
 export const eco = require("./images/re_eco.jpeg");
+
+export const cleaning = require("./Cleaning_Icons/Cleaning-Icons.jpg");
+export const hand = require("./Hand_Hygiene_Vector/Hand-Hygiene-Vector.png");
+export const qe = require("./QE/QE.jpg");
