@@ -10,7 +10,9 @@ export default function About() {
             re:Toilet
                         </h1>
           <h2 className="subtitle" style={{ marginTop: '1rem' }}>
-            私たちは視覚デザインから、トイレの利便性とマナーの向上を目指します。
+            私たちは視覚デザインから、
+            <br />
+            トイレの利便性とマナーの向上を目指します。
             <br />
             <br />
             <Link to={'/about'}>
