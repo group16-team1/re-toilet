@@ -4,9 +4,7 @@ import { getLanguageState } from '../store/language'
 
 import { FormattedMessage } from 'react-intl';
 
-import HeroList from '../components/HeroList'
-import IconList from '../components/IconList'
-import About from '../components/About'
+import { About, HeroList, IconList } from '../components'
 
 import { hello } from '../locales/hello'
 
