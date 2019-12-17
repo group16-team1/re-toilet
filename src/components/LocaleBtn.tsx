@@ -18,7 +18,7 @@ const LocaleBtn: React.FC = () => {
     return (
         <div className="dropdown is-hoverable is-right is-up" style={{ position: 'fixed', right: '30px', bottom: '40px' }}>
             <div className="dropdown-trigger">
-                <button className="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu4">
+                <button className="button is-medium" aria-haspopup="true" aria-controls="dropdown-menu4" style={{borderRadius: '10px'}}>
                     <span style={{ paddingRight: '10px' }}>{locale_btn[language]}</span>
                     <span className="icon is-small">
                         <img src={language_icon} className="App-logo" alt="logo" />
