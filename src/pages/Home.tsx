@@ -14,6 +14,7 @@ const Home: React.FC = () => {
 
   return (
     <header className="App-header">
+      <About />
       <HeroList />
       <div className="subtitle">
         <FormattedMessage
@@ -23,7 +24,6 @@ const Home: React.FC = () => {
           values={{ my_name: 'INIAD' }}
         />
       </div>
-      <About />
       <IconList />
     </header>
   )
