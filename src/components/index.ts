@@ -6,5 +6,16 @@ import Icon from "./Icon";
 import IconList from "./IconList";
 import LocaleBtn from "./LocaleBtn";
 import Navbar from "./Navbar";
+import BackBtn from "./BackBtn";
 
-export {About, Footer, Hero, HeroList, Icon, IconList, LocaleBtn, Navbar};
+export {
+  About,
+  Footer,
+  Hero,
+  HeroList,
+  Icon,
+  IconList,
+  LocaleBtn,
+  Navbar,
+  BackBtn
+};
