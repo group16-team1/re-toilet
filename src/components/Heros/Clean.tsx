@@ -39,7 +39,7 @@ const Clean: React.FC = () => {
             </h2>
             <p className="has-text-centered">
               <button className="button is-medium is-info is-outlined">
-                <Link to={'/about'} >
+                <Link to={'/clean'} >
                   read more
                 </Link>
               </button>
