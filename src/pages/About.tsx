@@ -1,9 +1,10 @@
 import React from 'react'
 
+import { BackBtn } from '../components'
+
 export default function About() {
   return (
     <div>
-
       <div className="hero-body">
         <div className="container has-text-centered">
           <div className="column is-10 is-offset-1">
@@ -102,6 +103,7 @@ export default function About() {
         </div>
       </div>
 
+      <BackBtn />
     </div>
   )
 }
