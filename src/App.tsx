@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import './App.css';
+import './App.sass';
 
 import { useModule } from './store/language'
 

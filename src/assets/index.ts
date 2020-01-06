@@ -1,26 +1,3 @@
-export const dry = require("./dry.png");
-export const flush_toilet_big = require("./flush-toilet-big.png");
-export const flush_toilet_small = require("./flush-toilet-small.png");
-export const front_wash = require("./front-wash.png");
-export const open_lid = require("./open-lid.png");
-export const open_seat = require("./open-seat.png");
-export const stop = require("./stop.png");
-export const wash = require("./wash.png");
-
-export const flush_big2 = require("./flush_big2.png");
-export const flush_small2 = require("./flush_small2.png");
-
-export const assets = [
-  dry,
-  flush_big2,
-  flush_small2,
-  front_wash,
-  open_lid,
-  open_seat,
-  stop,
-  wash
-];
-
 export const manner = require("./images/re_manner.jpeg");
 export const clean = require("./images/re_clean.jpeg");
 export const eco = require("./images/re_eco.jpeg");
@@ -31,17 +8,35 @@ export const qe = require("./QE/QE.jpg");
 
 export const back_button = require("./left-arrow.svg");
 
-export const close4 = require("./images.v4/close4.png");
-export const f_wash4 = require("./images.v4/f_wash4.png");
-export const flush_big4 = require("./images.v4/flush_big4.png");
-export const flush_small4 = require("./images.v4/flush_small4.png");
-export const open4 = require("./images.v4/open4.png");
-export const wash4 = require("./images.v4/wash4.png");
-export const assets4 = [
-  close4,
-  f_wash4,
-  flush_big4,
-  flush_small4,
-  open4,
-  wash4
+export const flush_small = require("./images.v5/1.png");
+export const flush_big = require("./images.v5/2.png");
+export const wash_front = require("./images.v5/3.png");
+export const wash = require("./images.v5/4.png");
+export const open = require("./images.v5/5.png");
+export const open_lid = require("./images.v5/6.png");
+export const assets = [
+  {
+    src: flush_small as string,
+    name: "flush_small" as string
+  },
+  {
+    src: flush_big as string,
+    name: "flush_big" as string
+  },
+  {
+    src: wash as string,
+    name: "wash" as string
+  },
+  {
+    src: wash_front as string,
+    name: "wash_front" as string
+  },
+  {
+    src: open as string,
+    name: "open" as string
+  },
+  {
+    src: open_lid as string,
+    name: "open_lid" as string
+  }
 ];

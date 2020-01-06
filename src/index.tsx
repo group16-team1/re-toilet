@@ -8,6 +8,8 @@ import { IntlProvider } from 'react-intl'
 import { DefaultTypelessProvider } from 'typeless';
 
 import 'bulma/css/bulma.css'
+import 'bulma-modal-fx/dist/css/modal-fx.min.css'
+import 'bulma-modal-fx/dist/js/modal-fx.min.js'
 
 ReactDOM.render(
     <DefaultTypelessProvider>

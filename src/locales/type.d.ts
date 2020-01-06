@@ -33,3 +33,29 @@ export type Language = {
 type Hero = {
   title: string;
 };
+
+interface Icon {
+  title: LocaleData;
+  content: LocaleData;
+  [key: string]: LocaleData;
+}
+
+export interface IconList {
+  flush_small: Icon;
+  flush_big: Icon;
+  wash: Icon;
+  wash_front: Icon;
+  open: Icon;
+  open_lid: Icon;
+  [key: string]: Icon;
+}
+
+export interface IconListI {
+  flush_small: Icon;
+  flush_big: Icon;
+  wash: Icon;
+  wash_front: Icon;
+  open: Icon;
+  open_lid: Icon;
+  [key: string]: Icon;
+}
