@@ -8,7 +8,7 @@ const HeroList: React.FC = () => {
       <Clean />
       <Eco />
       <Manner />
-    </div>
+    </div >
   )
 }
 

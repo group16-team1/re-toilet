@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function About() {
+import { line1, line2, read_more } from '../locales/about'
+import { getLanguageState } from '../store/language'
+
+const About: React.FC = () => {
+  const { language } = getLanguageState.useState();
+
   return (
     <div className="hero-body">
       <div className="container has-text-centered">
@@ -10,17 +15,19 @@ export default function About() {
             re:Toilet
                         </h1>
           <h2 className="subtitle" style={{ marginTop: '1rem' }}>
-            私たちは視覚デザインから
+            {line1[language]}
             <br />
-            トイレの利便性とマナーの向上を目指します。
+            {line2[language]}
             <br />
             <br />
             <Link to={'/about'}>
-              詳しく読む
-              </Link>
+              {read_more[language]}
+            </Link>
           </h2>
         </div>
       </div>
     </div>
   )
 }
+
+export default About

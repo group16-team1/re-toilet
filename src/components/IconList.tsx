@@ -2,6 +2,7 @@ import React from 'react'
 
 import { assets } from '../assets/index'
 import { local_icon_detail } from '../locales/icon_detail'
+import { line1, line2 } from '../locales//icon_list'
 import { getLanguageState } from '../store/language'
 
 const changeState = (id: string) => {
@@ -22,9 +23,9 @@ const IconList: React.FC = () => {
         re:Design
       </h1>
       <h2 className="subtitle" style={{ marginTop: '1rem' }}>
-        アイコンをクリックして
+        {line1[language]}
         <br />
-        意味を学ぼう
+        {line2[language]}
       </h2>
 
       <div className="columns is-tablet is-multiline" style={{ margin: '0 5rem' }}>

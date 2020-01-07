@@ -35,7 +35,7 @@ const Clean: React.FC = () => {
               {hero_list[title].title[language]}
             </h1>
             <h2 className="subtitle is-4">
-              Let this cover page describe a product or service.
+              {hero_list[title].desc[language]}
             </h2>
             <p className="has-text-centered">
               <button className="button is-medium is-info is-outlined">

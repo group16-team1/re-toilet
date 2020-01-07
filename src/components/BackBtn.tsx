@@ -2,8 +2,8 @@ import React from 'react'
 
 import { getLanguageState } from '../store/language'
 
-import { locale_btn } from '../locales/locale_btn'
-import {back_button} from '../assets'
+import { back_btn } from '../locales/back_btn'
+import { back_button } from '../assets'
 
 
 const BackBtn: React.FC = () => {
@@ -17,7 +17,7 @@ const BackBtn: React.FC = () => {
           <span className="icon is-small" style={{ paddingRight: '10px' }}>
             <img src={back_button} className="App-logo" alt="logo" />
           </span>
-          <span>戻る</span>
+          <span>{back_btn[language]}</span>
         </button>
       </div>
     </div>

@@ -1,10 +1,10 @@
-import { IconList, IconListI } from "./type";
+import { IconListI } from "./type";
 
 export const local_icon_detail: IconListI = {
   flush_small: {
     title: {
       en: "English",
-      ja: "日本語",
+      ja: "水量少なめ",
       ct: "繁体中文",
       cs: "簡体中文"
     },
@@ -18,7 +18,7 @@ export const local_icon_detail: IconListI = {
   flush_big: {
     title: {
       en: "English",
-      ja: "日本語",
+      ja: "水量　大",
       ct: "繁体中文",
       cs: "簡体中文"
     },
@@ -32,7 +32,7 @@ export const local_icon_detail: IconListI = {
   wash: {
     title: {
       en: "English",
-      ja: "日本語",
+      ja: "ウォシュレット",
       ct: "繁体中文",
       cs: "簡体中文"
     },
@@ -46,7 +46,7 @@ export const local_icon_detail: IconListI = {
   wash_front: {
     title: {
       en: "English",
-      ja: "日本語",
+      ja: "女性用ウォシュレット",
       ct: "繁体中文",
       cs: "簡体中文"
     },
