@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/re-toilet/static/css/main.f1478441.chunk.css",
+    "main.js": "/re-toilet/static/js/main.1f17e6cd.chunk.js",
+    "main.js.map": "/re-toilet/static/js/main.1f17e6cd.chunk.js.map",
+    "runtime-main.js": "/re-toilet/static/js/runtime-main.fbfb2034.js",
+    "runtime-main.js.map": "/re-toilet/static/js/runtime-main.fbfb2034.js.map",
+    "static/css/2.05cc6958.chunk.css": "/re-toilet/static/css/2.05cc6958.chunk.css",
+    "static/js/2.4635783d.chunk.js": "/re-toilet/static/js/2.4635783d.chunk.js",
+    "static/js/2.4635783d.chunk.js.map": "/re-toilet/static/js/2.4635783d.chunk.js.map",
+    "index.html": "/re-toilet/index.html",
+    "precache-manifest.759b4b7edad7269c131ea094416d4a05.js": "/re-toilet/precache-manifest.759b4b7edad7269c131ea094416d4a05.js",
+    "service-worker.js": "/re-toilet/service-worker.js",
+    "static/css/2.05cc6958.chunk.css.map": "/re-toilet/static/css/2.05cc6958.chunk.css.map",
+    "static/css/main.f1478441.chunk.css.map": "/re-toilet/static/css/main.f1478441.chunk.css.map",
+    "static/media/1.png": "/re-toilet/static/media/1.aed10e6f.png",
+    "static/media/2.png": "/re-toilet/static/media/2.57f16dbe.png",
+    "static/media/3.png": "/re-toilet/static/media/3.339bd7a1.png",
+    "static/media/4.png": "/re-toilet/static/media/4.effa516c.png",
+    "static/media/5.png": "/re-toilet/static/media/5.0c97419c.png",
+    "static/media/6.png": "/re-toilet/static/media/6.33e90923.png",
+    "static/media/Cleaning-Icons.jpg": "/re-toilet/static/media/Cleaning-Icons.8b0a33c9.jpg",
+    "static/media/Hand-Hygiene-Vector.png": "/re-toilet/static/media/Hand-Hygiene-Vector.199bd060.png",
+    "static/media/QE.jpg": "/re-toilet/static/media/QE.23e549c0.jpg",
+    "static/media/language.svg": "/re-toilet/static/media/language.f6a6d1b6.svg",
+    "static/media/left-arrow.svg": "/re-toilet/static/media/left-arrow.5920a041.svg",
+    "static/media/re_clean.jpeg": "/re-toilet/static/media/re_clean.a8b72873.jpeg",
+    "static/media/re_eco.jpeg": "/re-toilet/static/media/re_eco.f7db25f2.jpeg",
+    "static/media/re_manner.jpeg": "/re-toilet/static/media/re_manner.abb25081.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbfb2034.js",
+    "static/css/2.05cc6958.chunk.css",
+    "static/js/2.4635783d.chunk.js",
+    "static/css/main.f1478441.chunk.css",
+    "static/js/main.1f17e6cd.chunk.js"
+  ]
+}
