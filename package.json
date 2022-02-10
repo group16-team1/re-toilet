@@ -43,6 +43,6 @@
   "devDependencies": {
     "@emotion/core": "^10.0.22",
     "@types/react-router-dom": "^5.1.0",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
